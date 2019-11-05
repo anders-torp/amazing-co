@@ -6,7 +6,7 @@ run 'docker-compose up'
 
 ### Server
 
-Server is availble at http://localhost:3010 and swagger documentation is found under /docs
+Server is available at http://localhost:3010 and swagger documentation is found under /docs
 
 ### Database
 
