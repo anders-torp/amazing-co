@@ -1,0 +1,15 @@
+{
+  "swagger": {
+    "outputDirectory": "./src/generated",
+    "entryFile": "./src/app.ts",
+    "basePath": "/",
+    "host": "localhost:3010",
+    "schemes": ["http"],
+    "noImplicitAdditionalProperties": "silently-remove-extras"
+  },
+  "routes": {
+    "basePath": "/",
+    "entryFile": "./src/app.ts",
+    "routesDir": "./src/generated"
+  }
+}

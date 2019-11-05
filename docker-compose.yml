@@ -1,0 +1,18 @@
+version: "2"
+services:
+  app:
+    build: ./app
+    ports:
+      - "3010:3010"
+    depends_on:
+      - db
+    environment:
+      - PORT=3306
+      - USER=root
+      - PASSWORD=pass
+      - DATABASE=treedb
+      - DATABASE_HOST=db
+  db:
+    build: ./database
+    ports:
+      - "3306:3306"
